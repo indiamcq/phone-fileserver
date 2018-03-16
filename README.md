@@ -2,8 +2,9 @@
 Documenting ways to serve files from your phone.
 
 * [BibleBox like interface with PHP](#phpserver)
+* [Miniserver running on Termux](#miniserver)
 
-## BibleBox like inerface <a id="phpserver"></a>
+## <a id="phpserver"></a>BibleBox like inerface 
 
 BibleBox is a derivative of LibraryBox that is a derivative of PirateBox.
 
