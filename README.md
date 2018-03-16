@@ -33,7 +33,7 @@ The default files from BibleBox can be placed in the home folder. Though the ser
 ### Download
 * PHP-fileserver.zip
 
-## Termux - Node JS - miniserver <a id="miniserver"></a>
+## <a id="miniserver"></a>Miniserver - NodeJS - Termux
 
 This is a bit techy to set up but it works well with just a home page and links to the download folders or just a link to the root of the downloads folder/s.
 
