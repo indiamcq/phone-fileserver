@@ -54,13 +54,6 @@ termux-setup-storage
 ```
 In a file manage on your phone make a folder in your internal storage called __miniserver__. If you have a home page called index.html put it here. If you don't then the server will serve up the folers and or files in that folder.
 
-In Termux type the following:
-
-```
-cd storage/shared/miniserver
-miniserver
-```
-
 The hard part is you have to know what the IP address is on the wifi network. To get the ip address in Termux type the following:
 
 ```
@@ -68,5 +61,14 @@ ifconfig wlan0
 ```
 
 The third line will have: `inet addr:` the number after that is your ip address.
+
+In Termux type the following:
+
+```
+cd storage/shared/miniserver
+miniserver
+```
+
+
 
 Once the server is running then you can connect to it on the phone at localhost:8080 or from another device on the same wireless network at the IP address followed by the :8080 port address.
